@@ -1,0 +1,2 @@
+Sample code to make an animated globe with d3 on canvas. Borrowing heavily from http://bl.ocks.org/mbostock/4183330
+The plane flies from `startCountry` to `endCountry`, and you can rotate the globe around once the animation is done

@@ -19,7 +19,7 @@ $row = mysqli_fetch_assoc($result);
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
@@ -51,9 +51,17 @@ $row = mysqli_fetch_assoc($result);
       <div class="page-content">
         <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--4-col">
-            <ul  class="demo-list-item mdl-list" id="outUp">
+            <ul  class="demo-list-item mdl-list" id="outUp1">
               <li class="mdl-list__item" style="color:white !important;"><span class="mdl-list__item-primary-content"><strong>Latitude: </strong> Exposure is more intense at higher latitudes. Radiation levels at the poles are about twice those at the equator. </span></li>
+            </ul>
+          </div>
+            <div class="mdl-cell mdl-cell--4-col">
+            <ul  class="demo-list-item mdl-list" id="outUp2">
               <li class="mdl-list__item" style="color:white !important;"><span class="mdl-list__item-primary-content"><strong>Altitude: </strong> Exposure is more intense at higher altitudes, as the layer of protective atmosphere above you is thinner.</span></li>
+            </ul>
+          </div>
+          <div class="mdl-cell mdl-cell--4-col">
+            <ul  class="demo-list-item mdl-list" id="outUp3">
               <li class="mdl-list__item" style="color:white !important;"><span class="mdl-list__item-primary-content"><strong>Solarity: </strong> Solar radiation storms can sometimes follow solar flares, and may also occur in the years leading up to and down from them. During a storm, radiation intensity can increase 1,000 fold. </span></li>
             </ul>
           </div>

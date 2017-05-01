@@ -17,8 +17,8 @@ $row = mysqli_fetch_assoc($result);
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/table.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
@@ -77,11 +77,11 @@ $row = mysqli_fetch_assoc($result);
              ?>
             <form  action="index.php" method="post"><br/>
               <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="sample1" name="start">
+                <input class="mdl-textfield__input" type="text" id="sample1" style="color:white;" name="start">
                 <label class="mdl-textfield__label" for="sample1" style="color:white;font-size:18px;">Departure</label>
               </div><br/>
               <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="sample2" name="end">
+                <input class="mdl-textfield__input" type="text" id="sample2" style="color:white;" name="end">
                 <label class="mdl-textfield__label" for="sample2" style="color:white;font-size:18px;">Destination</label>
               </div><br/><br/>
                 <input type="date"  name="date">
@@ -94,7 +94,7 @@ $row = mysqli_fetch_assoc($result);
                 <tr>
                     <th scope="col">Departure</th>
                       <th scope="col">Destination</th>
-                      <th scope="col">EquivalentDose</th>
+                      <th scope="col">EffectiveDose</th>
                       <th scope="col">DateTime</th>
                   </tr>
               </thead>
@@ -117,15 +117,8 @@ $row = mysqli_fetch_assoc($result);
                     }
                     $query5 = "UPDATE user SET `total_radiation`='$total_radiation' WHERE id='$id'";
                     $result = mysqli_query($con,$query5);
-                    // if($result){
-                    //  
-                    //
-                    //   alert("Done");
-                    //   </script>
-                    //   <?php
-                    // }
-
                    ?>
+                   <h4 style="color:white;">Cumulative Dose: <?php echo $total_radiation;?> mSv</h4>
               </tbody>
           </table>
           </div>

@@ -208,8 +208,8 @@ function ready(error, world, names) {
     function customTransition(journey){
         var rotateFunc = d3_geo_greatArcInterpolator();
         d3.transition()
-            .delay(150)
-            .duration(5000)
+            .delay(250)
+            .duration(50000)
             .tween("rotate", function() {
                 var point = d3.geo.centroid(journey[1])
                 rotateFunc.source(projection.rotate()).target([-point[0], -point[1]]).distance();

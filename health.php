@@ -57,7 +57,7 @@ $row = mysqli_fetch_assoc($result);
             </div>
           </div>
           <div class="mdl-cell mdl-cell--5-col">
-              <img src="body.jpg" width="400px" height="400" style="margin-left:20%;"/>
+              <img src="images/body.jpg" width="400px" height="400" style="margin-left:20%;"/>
           </div>
             <div class="mdl-cell mdl-cell--4-col">
           <div class="wrap" style="margin-left:50%;">

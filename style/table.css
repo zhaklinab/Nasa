@@ -458,7 +458,7 @@ body
 }*/
 #background-image tbody tr:hover td
 {
-	background: url('back.png');
+	background: url('../images/back.png');
 }
 
 #gradient-style

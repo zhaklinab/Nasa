@@ -1,8 +1,8 @@
 # NASA
-Space Apps Challenge 2017, Tirana, Albania
-Group Name: X-RAYDERS
-Warning! Danger Ahead! 
-Challenge: MayDay, MayDay, MayDay! 
+### Space Apps Challenge 2017, Tirana, Albania
+### Group Name: X-RAYDERS
+## Warning! Danger Ahead! 
+#### Challenge: MayDay, MayDay, MayDay! 
 
 How it works:
 * Create a personal profile.

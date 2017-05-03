@@ -11,3 +11,4 @@ How it works:
 * It gives you the possibility to calculate the radiation and compare it with the normal dose. 
 
 **** We calculated the flight using some DATA from NAIRAS. ****
+http://sol.spacenvironment.net/raps_ops/current_files/globeView.html

@@ -10,4 +10,4 @@ How it works:
 * The website gives you some advices and warns users about the health risk from radiation and how to protect yourself from it. 
 * It gives you the possibility to calculate the radiation and compare it with the normal dose. 
 
-**** We just calculated the flight using some DATA from NASA. ****
+**** We calculated the flight using some DATA from NAIRAS. ****

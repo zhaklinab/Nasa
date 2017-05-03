@@ -101,7 +101,7 @@ $(document).ready(function(){
     radiationDose.append('0.172 mSv');
     flightTime.append('13.5 Hours');
   }else{
-    alert("Gje tjeter vlla");
+    alert("Sorry, We don't have DATA about this flight!");
   }
 
 });
